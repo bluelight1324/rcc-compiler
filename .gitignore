@@ -1,0 +1,51 @@
+# Build artifacts
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.dll
+
+# Allow bin/ distribution
+!bin/*.exe
+!bin/*.lib
+
+# Assembly output (generated)
+*.asm
+*.o
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+_deps/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+ipch/
+
+# Temp files
+*.tmp
+*.bak
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+tests/**/*.obj
+tests/**/*.exe
+tests/**/*.asm
+tests/**/*.err
+
+# Logs
+*.log
+*.err
